@@ -8,16 +8,13 @@ const app = express();
 const apiKey = process.env.API;
 
 
-app.get("/", (req, res) => {
-    res.send("Welcome to my Movie API");
-}
-);
 
-app.get("/trending", async (req, res, next) => {
+
+app.get("/", async (req, res, next) => {
     try {
-      const response = await axios.get(`${process.env.URL}/trending/movie/week`, {
+      const response = await axios.get(`https://api.themoviedb.org/3/trending/movie/week`, {
         params: {
-          api_key: process.env.APIKey,
+          api_key: 'b659ae2e8af9cd759276b69f5b03302b',
         },
       });
   
