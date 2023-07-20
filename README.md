@@ -5,6 +5,8 @@ A simple express api serevr that gets trending movies, deployed on aws elastic b
 
 deployed link: http://class16aws-env.eba-pyqtpbqt.us-east-1.elasticbeanstalk.com/
 
+#### [PR](https://github.com/saleh2001k/cloud-server/pull/3)
+
 #### AWS elastic beanstalk dashboard 
 ![Alt text](image.png)
 #### Events log
